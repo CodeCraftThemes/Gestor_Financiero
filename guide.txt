@@ -1,0 +1,14 @@
+# crear entorno virtual
+python -m venv venv_streamlit
+
+# activar entorno virtual
+venv_streamlit\Scripts\activate
+
+# instalar requerimientos y bibliotecas
+pip install .\requirements.txt
+
+# ejecutar programa
+streamlit run app.py
+
+# detener entorno virtual
+venv_streamlit\Scripts\deactivate
